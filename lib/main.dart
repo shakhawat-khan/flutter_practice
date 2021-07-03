@@ -9,6 +9,8 @@ void main() {
         backgroundColor: Colors.greenAccent,
       ),
       body:Column(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
           Container(
             decoration: BoxDecoration(
@@ -22,6 +24,13 @@ void main() {
             ),
             child: Text('here'),
           ),
+          Container(
+            decoration: BoxDecoration(
+              color: Colors.red,
+            ),
+            child: Text('also here'),
+          ),
+
         ],
       )
     ),
