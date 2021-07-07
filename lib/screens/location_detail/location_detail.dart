@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'text_section.dart';
+import 'image_banner.dart';
 
 class LocationDetail extends StatelessWidget {
 
@@ -14,13 +15,13 @@ class LocationDetail extends StatelessWidget {
 
       body: Column(
 
-        mainAxisAlignment:MainAxisAlignment.spaceAround ,
-        crossAxisAlignment: CrossAxisAlignment.stretch,
+        mainAxisAlignment:MainAxisAlignment.start ,
+        crossAxisAlignment: CrossAxisAlignment.center,
 
         children: [
-         TextSelection1(Colors.red),
-          TextSelection1(Colors.blueAccent),
-          TextSelection1(Colors.yellowAccent),
+          ImageBanner("assets/images/bichanakandi.jpg"),
+          TextSelection1(Colors.yellow)
+          
         ],
       ),
 
