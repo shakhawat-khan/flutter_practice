@@ -20,7 +20,8 @@ class LocationDetail extends StatelessWidget {
 
         children: [
           ImageBanner("assets/images/bichanakandi.jpg"),
-          TextSelection1(Colors.yellow)
+          TextSelection1("good", "this is a good day flajslkdjfklajdklfjalkjdlk"),
+          TextSelection1("not good", "this is not a good day"),
           
         ],
       ),
