@@ -20,12 +20,12 @@ class TextSelection1 extends StatelessWidget {
       children: [
         Container(
           padding: const EdgeInsets.fromLTRB(_hPad, 32.0, _hPad, 4.0),
-          child: Text(_title,style: Theme.of(context).textTheme.title),
+          child: Text(_title,style: Theme.of(context).textTheme.headline6),
         ),
 
         Container(
           padding: const EdgeInsets.fromLTRB(_hPad, 10.0, _hPad, _hPad),
-          child: Text(_body,style: Theme.of(context).textTheme.body1),
+          child: Text(_body,style: Theme.of(context).textTheme.bodyText2),
         ),
       ],
 

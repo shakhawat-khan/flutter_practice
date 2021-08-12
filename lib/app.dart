@@ -12,11 +12,11 @@ class App extends StatelessWidget {
       home: LocationDetail(),
       theme: ThemeData(
         appBarTheme: AppBarTheme(
-          textTheme: TextTheme(title:AppBarTextStyle),
+          textTheme: TextTheme(headline6:AppBarTextStyle),
         ),
         textTheme: TextTheme(
-          title: TitleTextStyle,
-          body1: Body1TextStyle,
+          headline6: TitleTextStyle,
+          bodyText2: Body1TextStyle,
 
       )
       ),
